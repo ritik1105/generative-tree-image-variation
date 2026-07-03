@@ -1,0 +1,12 @@
+{
+    "generation_mode": "text2image",
+
+    "species": "Neem",
+
+    "season": ["summer","winter", "spring"],
+    "weather": ["clear","rainy", "snowy"],
+
+    "num_images": 4,
+
+    "random_seed": 42
+}

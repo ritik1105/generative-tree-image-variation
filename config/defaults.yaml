@@ -1,0 +1,51 @@
+defaults:
+ weather: clear
+ health: healthy
+ lighting: natural_daylight
+ camera_angle: front
+ background: natural_background
+ leaf_density: mild_dense
+ realism_level: photorealistic
+ time_of_day: morning
+ output_size: 1024x1024
+ random_seed: null
+ output_width: 512
+ output_height: 512
+ guidance_scale: 6.5
+ num_inference_steps: 10
+ strength: 0.6
+ output_size: 1024x1024
+ random_seed: null
+
+variations:
+ season:
+  - summer
+  - monsoon
+  - winter
+  - spring
+  - autumn
+ weather:
+  - clear
+  - sunny
+  - cloudy
+  - foggy
+  - rainy
+ health:
+  - healthy
+  - mildly_stressed
+  - moderately_stressed
+  - severly_stressed
+ camera_angles:
+  - top
+  - front
+  - side
+  - low_angle
+  - wide_shot
+ lighting:
+  - low_lighting
+  - natural_daylight
+  - high_brightness
+ timme_of_day:
+  - morning
+  - afternoon
+  - evening

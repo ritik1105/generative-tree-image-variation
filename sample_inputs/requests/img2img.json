@@ -1,0 +1,13 @@
+{
+    "generation_mode": "img2img",
+    "input_image": "sample_inputs/images/neem.jpg",
+
+    "species": "Neem",
+
+    "season": ["winter","summer", "spring"],
+    "weather": ["rainy","clear", "snowy"],
+
+    "num_images": 4,
+
+    "random_seed": 42
+}
