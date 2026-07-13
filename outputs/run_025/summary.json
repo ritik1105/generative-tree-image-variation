@@ -1,0 +1,10 @@
+{
+    "model": "stabilityai/stable-diffusion-xl-base-1.0",
+    "generation_mode": "text2image",
+    "species": "Banyan",
+    "requested_images": 1,
+    "generated_images": 1,
+    "average_generation_time": 448.7095886999741,
+    "total_generation_time": 448.7095886999741,
+    "completed_at": "2026-07-10T12:31:00.947961"
+}

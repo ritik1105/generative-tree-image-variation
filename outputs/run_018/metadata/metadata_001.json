@@ -1,0 +1,18 @@
+{
+    "species": "Neem",
+    "season": "winter",
+    "weather": "rainy",
+    "health": "healthy",
+    "camera_angle": "front",
+    "lighting": "natural_daylight",
+    "time_of_day": "morning",
+    "model": "stabilityai/stable-diffusion-xl-base-1.0",
+    "prompt": "Ultra realistic DSLR nature photograph of\n Neem tree, (Azadirachta indica), broad umbrella-shaped canopy, moderately dense crown, irregular branching pattern, thick rough brown trunk, deeply fissured bark, sturdy mature appearance, pinnate compound leaves, vibrant green foliage, medium-sized leaflets, dense leaf clusters, spreading branches, slightly drooping secondary branches, not visible, cool atmosphere, sparse vegetation, light morning fog, calm winter environment, dark rain clouds, water droplets on leaves, wet bark, reflective foliage, humid atmosphere, eye-level perspective, centered composition, full tree visible, 50mm DSLR lens, healthy foliage, morning atmosphere, ultra realistic, DSLR nature photography, botanical accuracy, realistic bark texture, sharp focus, natural colors, high dynamic range, 8k resolution, masterpiece, highly detailed, professional wildlife photography\n",
+    "negative_prompt": "blurry, low quality, low resolution, watermark, text, logo, duplicate, cropped, noisy, distorted, deformed, cartoon, anime, illustration, painting, sketch, CGI, plastic texture, floating branches, disconnected leaves, malformed canopy, extra trunk, extra branches, unrealistic bark, artificial colors",
+    "seed": null,
+    "guidance_scale": 6.5,
+    "num_inference_steps": 10,
+    "width": 512,
+    "height": 512,
+    "generation_time": 241.10217039997224
+}

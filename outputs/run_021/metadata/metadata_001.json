@@ -1,0 +1,18 @@
+{
+    "species": "Peepal",
+    "season": "summer",
+    "weather": "clear",
+    "health": "healthy",
+    "camera_angle": "front",
+    "lighting": "morning",
+    "time_of_day": "afternoon",
+    "model": "stabilityai/stable-diffusion-xl-base-1.0",
+    "prompt": "Ultra realistic DSLR nature photograph of\n Peepal tree, (Ficus religiosa), heart-shaped leaves, long tapering leaf tips, grey bark, lush green foliage, dense canopy, bright natural sunlight, vibrant vegetation, clear blue sky, excellent visibility, bright natural daylight, crisp atmosphere, eye-level perspective, centered composition, full tree visible, 50mm DSLR lens, soft morning sunlight, cool natural tones, fresh atmosphere, healthy foliage, afternoon atmosphere, ultra realistic, DSLR nature photography, botanical accuracy, realistic bark texture, sharp focus, natural colors, high dynamic range, 8k resolution, masterpiece, highly detailed, professional wildlife photography\n",
+    "negative_prompt": "blurry, low quality, low resolution, watermark, text, logo, duplicate, cropped, noisy, distorted, deformed, cartoon, anime, illustration, painting, sketch, CGI, plastic texture, floating branches, disconnected leaves, malformed canopy, extra trunk, extra branches, unrealistic bark, artificial colors",
+    "seed": null,
+    "guidance_scale": 6.5,
+    "num_inference_steps": 10,
+    "width": 512,
+    "height": 512,
+    "generation_time": 524.4872025999939
+}

@@ -1,7 +1,7 @@
 import yaml
 from itertools import product
 import random
-from utils.config_manager import ConfigManager
+from config.config_manager import ConfigManager
 
 class VariationEngine:
     def load_defaults(self):

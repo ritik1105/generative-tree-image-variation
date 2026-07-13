@@ -1,0 +1,18 @@
+{
+    "species": "Peepal",
+    "season": "summer",
+    "weather": "rainy",
+    "health": "healthy",
+    "camera_angle": "front",
+    "lighting": "natural_daylight",
+    "time_of_day": "afternoon",
+    "model": "stabilityai/stable-diffusion-xl-base-1.0",
+    "prompt": "Ultra realistic DSLR nature photograph of\n asingle mature healthy Peepal tree (Ficus religiosa)\n\nAppearance: heart-shaped leaves, long tapering leaf tips, grey bark\n\nEnvironment: summer season, rainy weather, afternoon, lush green foliage, dense canopy, bright natural sunlight, vibrant vegetation\n\nComposition: exactly one tree, centered composition, entire tree visible, single isolated tree, only one tree, tree centered\n\nStyle: ultra realistic, DSLR nature photography, botanical accuracy, realistic bark texture, sharp focus, natural colors, real bark texture, real leaf texture, botanical documentation style\n\nDo not generate forests, multiple trees, parks, duplicate trees, collages, text, logos, people or buildings.\n\nmasterpiece, highly detailed, professional wildlife photography",
+    "negative_prompt": "blurry, low quality, low resolution, watermark, text, logo, duplicate, cropped, noisy, distorted, deformed, cartoon, anime, illustration, painting, sketch, CGI, plastic texture, floating branches, disconnected leaves, malformed canopy, extra trunk, extra branches, unrealistic bark, artificial colors",
+    "seed": null,
+    "guidance_scale": 6.5,
+    "num_inference_steps": 10,
+    "width": 512,
+    "height": 512,
+    "generation_time": 512.9853725000285
+}

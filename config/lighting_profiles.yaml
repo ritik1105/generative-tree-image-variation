@@ -1,0 +1,44 @@
+morning:
+  descriptors:
+    - soft morning sunlight
+    - cool natural tones
+    - fresh atmosphere
+
+afternoon:
+  descriptors:
+    - bright overhead sunlight
+    - vivid natural colors
+    - strong daylight
+
+golden_hour:
+  descriptors:
+    - warm golden sunlight
+    - cinematic lighting
+    - long soft shadows
+    - orange glow
+
+sunset:
+  descriptors:
+    - warm sunset colors
+    - orange horizon
+    - dramatic sky
+    - soft ambient light
+
+evening:
+  descriptors:
+    - dim ambient lighting
+    - calm evening atmosphere
+    - soft shadows
+
+night:
+  descriptors:
+    - moonlight
+    - dark surroundings
+    - low illumination
+    - nighttime environment
+
+overcast:
+  descriptors:
+    - soft diffused light
+    - shadowless lighting
+    - evenly illuminated scene

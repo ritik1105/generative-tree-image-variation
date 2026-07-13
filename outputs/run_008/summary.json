@@ -1,0 +1,10 @@
+{
+    "model": "stabilityai/stable-diffusion-xl-base-1.0",
+    "generation_mode": "img2img",
+    "species": "Neem",
+    "requested_images": 1,
+    "generated_images": 1,
+    "average_generation_time": 556.6134818000719,
+    "total_generation_time": 556.6134818000719,
+    "completed_at": "2026-07-03T11:17:54.341799"
+}

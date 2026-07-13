@@ -1,0 +1,238 @@
+Neem:
+
+  common_name: Neem
+  scientific_name: Azadirachta indica
+
+  taxonomy:
+    family: Meliaceae
+    type: Broadleaf
+    origin: Indian Subcontinent
+
+  appearance:
+
+    canopy:
+      - broad umbrella-shaped canopy
+      - moderately dense crown
+      - irregular branching pattern
+
+    trunk:
+      - thick rough brown trunk
+      - deeply fissured bark
+      - sturdy mature appearance
+
+    leaves:
+      - pinnate compound leaves
+      - vibrant green foliage
+      - medium-sized leaflets
+      - dense leaf clusters
+
+    branches:
+      - spreading branches
+      - slightly drooping secondary branches
+
+    roots:
+      - not visible
+
+  size:
+
+    height:
+      mature: "15-20 meters"
+
+    canopy_width:
+      mature: "10-15 meters"
+
+  environment:
+
+    climate:
+      - tropical
+      - subtropical
+
+    terrain:
+      - farmland
+      - roadside
+      - village landscape
+      - open fields
+      - parks
+
+    soil:
+      - dry soil
+      - well-drained soil
+
+  seasonal_characteristics:
+
+    spring:
+      - fresh green leaves
+      - small white flowers
+
+    summer:
+      - lush dense canopy
+      - healthy green foliage
+
+    monsoon:
+      - wet bark
+      - glossy leaves
+      - rain droplets
+
+    autumn:
+      - minor leaf shedding
+
+    winter:
+      - slightly lighter foliage
+      - sparse flowering
+
+  health:
+
+    healthy:
+      - dense canopy
+      - vibrant leaves
+      - no visible disease
+
+    mildly_stressed:
+      - slight yellowing leaves
+      - mildly reduced foliage
+
+    moderately_stressed:
+      - noticeable leaf loss
+      - dry branches
+
+    severely_stressed:
+      - sparse canopy
+      - dead branches
+      - dry bark
+
+  photography:
+
+    ideal_views:
+      - front
+      - side
+      - low angle
+
+    composition:
+      - full tree visible
+      - centered composition
+
+  prompt_descriptors:
+
+    positive:
+      - botanically accurate
+      - realistic bark texture
+      - photorealistic
+      - natural outdoor environment
+      - ultra detailed
+      - high resolution
+
+    negative:
+      - palm tree
+      - pine tree
+      - conifer
+      - bonsai
+      - cartoon
+      - anime
+      - unrealistic colors
+
+Mango:
+
+  common_name: Mango
+  scientific_name: Mangifera indica
+
+  taxonomy:
+    family: Anacardiaceae
+    type: Broadleaf
+    origin: South Asia
+
+  appearance:
+
+    canopy:
+      - dense rounded canopy
+      - symmetrical crown
+      - wide spreading branches
+
+    trunk:
+      - thick grey-brown trunk
+      - rough bark
+
+    leaves:
+      - glossy dark green leaves
+      - elongated lance-shaped leaves
+
+  seasonal_characteristics:
+
+    spring:
+      - flowering panicles
+
+    summer:
+      - mature mango fruits
+      - lush foliage
+
+    monsoon:
+      - wet glossy leaves
+
+    winter:
+      - dense evergreen canopy
+
+  prompt_descriptors:
+
+    positive:
+      - tropical fruit tree
+      - dense green canopy
+      - realistic mango tree
+
+    negative:
+      - apple tree
+      - oak tree
+      - palm tree
+Banyan:
+
+  common_name: Banyan
+  scientific_name: Ficus benghalensis
+
+  appearance:
+
+    canopy:
+      - enormous spreading canopy
+      - massive crown
+
+    trunk:
+      - multiple trunks
+      - aerial prop roots
+
+    roots:
+      - hanging aerial roots
+      - thick support roots
+
+  prompt_descriptors:
+
+    positive:
+      - majestic banyan tree
+      - ancient tree
+      - extensive aerial roots
+
+    negative:
+      - conifer
+      - palm
+      - pine
+
+Peepal:
+
+  common_name: Sacred Fig
+  scientific_name: Ficus religiosa
+
+  appearance:
+
+    leaves:
+      - heart-shaped leaves
+      - long tapering leaf tips
+
+    trunk:
+      - grey bark
+
+  prompt_descriptors:
+
+    positive:
+      - sacred fig
+      - realistic peepal tree
+
+    negative:
+      - palm
+      - bamboo
+

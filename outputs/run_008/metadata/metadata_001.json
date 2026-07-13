@@ -1,0 +1,18 @@
+{
+    "species": "Neem",
+    "season": "winter",
+    "weather": "rainy",
+    "health": "healthy",
+    "camera_angle": "front",
+    "lighting": "natural_daylight",
+    "time_of_day": "morning",
+    "model": "stabilityai/stable-diffusion-xl-base-1.0",
+    "prompt": "Photorealistic Neem tree, winter season, rainy weather, healthy foliage, front view, natural daylight, morning atmosphere, botanically accurate, natural outdoor environment, high-detail nature photography, realistic bark texture, sharp focus, ultra realistic",
+    "negative_prompt": null,
+    "seed": 42,
+    "guidance_scale": 6.5,
+    "num_inference_steps": 10,
+    "width": 512,
+    "height": 512,
+    "generation_time": 556.6134818000719
+}

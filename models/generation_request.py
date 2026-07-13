@@ -28,6 +28,14 @@ class GenerationRequest:
 
     num_images: int = 1
 
+    template: str = "photorealistic"
+
+    realism_profile: str = "photorealistic"
+    
     random_seed: Optional[int] = None
 
     strength: Optional[float] = None
+
+    prompt: str = ""
+
+    

@@ -1,0 +1,41 @@
+front:
+  descriptors:
+    - eye-level perspective
+    - centered composition
+    - full tree visible
+    - 50mm DSLR lens
+
+side:
+  descriptors:
+    - side profile
+    - balanced composition
+    - natural perspective
+    - 70mm telephoto lens
+
+low_angle:
+  descriptors:
+    - upward perspective
+    - emphasizes tree height
+    - wide-angle lens
+    - dramatic viewpoint
+
+top:
+  descriptors:
+    - aerial view
+    - top-down perspective
+    - drone photography
+    - symmetrical canopy
+
+wide_shot:
+  descriptors:
+    - landscape composition
+    - surrounding environment visible
+    - wide-angle photography
+    - environmental context
+
+macro:
+  descriptors:
+    - close-up shot
+    - macro photography
+    - bark texture details
+    - shallow depth of field

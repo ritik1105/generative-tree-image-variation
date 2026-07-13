@@ -1,0 +1,46 @@
+photorealistic:
+  descriptors:
+    - ultra realistic
+    - DSLR nature photography
+    - botanical accuracy
+    - realistic bark texture
+    - sharp focus
+    - natural colors
+    - high dynamic range
+    - 8k resolution
+
+cinematic:
+  descriptors:
+    - movie-quality
+    - cinematic composition
+    - volumetric lighting
+    - dramatic atmosphere
+    - shallow depth of field
+
+scientific:
+  descriptors:
+    - botanical documentation
+    - scientific accuracy
+    - neutral lighting
+    - reference photography
+    - isolated subject
+
+drone:
+  descriptors:
+    - aerial photography
+    - landscape overview
+    - bird's-eye perspective
+
+smartphone:
+  descriptors:
+    - smartphone photography
+    - handheld shot
+    - realistic mobile camera
+    - authentic outdoor image
+
+artistic:
+  descriptors:
+    - aesthetically pleasing
+    - visually balanced
+    - rich colors
+    - fine-art photography

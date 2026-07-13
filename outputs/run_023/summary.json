@@ -1,0 +1,10 @@
+{
+    "model": "stabilityai/stable-diffusion-xl-base-1.0",
+    "generation_mode": "text2image",
+    "species": "Mango",
+    "requested_images": 1,
+    "generated_images": 1,
+    "average_generation_time": 757.7971242000349,
+    "total_generation_time": 757.7971242000349,
+    "completed_at": "2026-07-10T11:54:04.877866"
+}

@@ -1,0 +1,35 @@
+spring:
+  descriptors:
+    - fresh green vegetation
+    - flowering surroundings
+    - healthy new growth
+    - vibrant ecosystem
+
+summer:
+  descriptors:
+    - lush green foliage
+    - dense canopy
+    - bright natural sunlight
+    - vibrant vegetation
+
+monsoon:
+  descriptors:
+    - wet soil
+    - rain-soaked environment
+    - glossy leaves
+    - humid atmosphere
+    - puddles around the tree
+
+autumn:
+  descriptors:
+    - fallen leaves
+    - seasonal transition
+    - dry ground
+    - warm earthy colors
+
+winter:
+  descriptors:
+    - cool atmosphere
+    - sparse vegetation
+    - light morning fog
+    - calm winter environment

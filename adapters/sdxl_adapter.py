@@ -1,6 +1,9 @@
 import time
 from pathlib import Path
-from utils.config_manager import ConfigManager
+
+from numpy import rint
+from typer import prompt
+from config.config_manager import ConfigManager
 import torch
 import yaml
 from PIL import Image
@@ -154,7 +157,13 @@ class SDXLAdapter(BaseAdapter):
             generator.manual_seed(seed)
 
         start = time.perf_counter()
+        print("\n" + "="*80)
+        print("POSITIVE PROMPT")
+        print(prompt)
 
+        print("\nNEGATIVE PROMPT")
+        print(negative_prompt)
+        print("="*80 + "\n")
         result = self.text_pipeline(
             prompt=prompt,
             negative_prompt=negative_prompt,
@@ -235,7 +244,13 @@ class SDXLAdapter(BaseAdapter):
             generator.manual_seed(seed)
 
         start = time.perf_counter()
+        print("\n" + "="*80)
+        print("POSITIVE PROMPT")
+        print(prompt)
 
+        print("\nNEGATIVE PROMPT")
+        print(negative_prompt)
+        print("="*80 + "\n")
         result = self.img2img_pipeline(
             prompt=prompt,
             image=image,

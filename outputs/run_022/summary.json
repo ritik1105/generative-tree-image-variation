@@ -1,0 +1,10 @@
+{
+    "model": "stabilityai/stable-diffusion-xl-base-1.0",
+    "generation_mode": "text2image",
+    "species": "Peepal",
+    "requested_images": 1,
+    "generated_images": 1,
+    "average_generation_time": 569.9001045000041,
+    "total_generation_time": 569.9001045000041,
+    "completed_at": "2026-07-10T10:06:05.548616"
+}

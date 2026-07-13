@@ -1,14 +1,11 @@
+
 from generators.variation_engine import VariationEngine
 from generators.prompt_builder import PromptBuilder
-
 from adapters.sdxl_adapter import SDXLAdapter
-
 from metadata.tracker import RunTracker
-
 from validators.request_validator import RequestValidator
-
 from utils.logger import logger
-
+from generators.negative_prompt_builder import NegativePromptBuilder
 
 class ImageGenerationPipeline:
     """
@@ -24,6 +21,8 @@ class ImageGenerationPipeline:
         self.adapter = SDXLAdapter()
 
         self.tracker = RunTracker()
+
+        self.negative_prompt_builder = NegativePromptBuilder()
 
     def run(self, request):
 
@@ -104,13 +103,21 @@ class ImageGenerationPipeline:
                 )
 
                 prompt = self.prompt_builder.build_prompt(
-                    variation
+                    variation=variation,
+                    template=request.template,
+                    realism=request.realism_profile
                 )
+
+                # Prepend user prompt if provided
+                if request.prompt.strip():
+                    prompt = f"{request.prompt}, {prompt}"
+                negative_prompt = self.negative_prompt_builder.build()
 
                 if mode == "text2image":
 
                     result = self.adapter.generate_text_to_image(
                         prompt=prompt,
+                        negative_prompt=negative_prompt,
                         seed=request.random_seed
                     )
 
@@ -119,9 +126,10 @@ class ImageGenerationPipeline:
                     result = self.adapter.generate_image_to_image(
                         image_path=request.input_image,
                         prompt=prompt,
+                        negative_prompt=negative_prompt,
                         seed=request.random_seed,
                         strength=request.strength
-                    )
+                )
 
                 self.tracker.save_generation(
                     result,
@@ -176,3 +184,11 @@ class ImageGenerationPipeline:
         logger.info(
             "Generation completed successfully."
         )
+        images_folder = self.tracker.images_dir
+
+        generated_images = sorted(images_folder.glob("*.png"))
+
+        return {
+            "summary": summary,
+            "images": [str(image) for image in generated_images]
+        }

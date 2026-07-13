@@ -1,0 +1,18 @@
+{
+    "species": "Mango",
+    "season": "winter",
+    "weather": "foggy",
+    "health": "healthy",
+    "camera_angle": "front",
+    "lighting": "morning",
+    "time_of_day": "morning",
+    "model": "stabilityai/stable-diffusion-xl-base-1.0",
+    "prompt": "Ultra realistic DSLR nature photograph of\n Mango tree, (Mangifera indica), dense rounded canopy, symmetrical crown, wide spreading branches, thick grey-brown trunk, rough bark, glossy dark green leaves, elongated lance-shaped leaves, cool atmosphere, sparse vegetation, light morning fog, calm winter environment, dense fog, misty surroundings, low visibility, dew-covered leaves, eye-level perspective, centered composition, full tree visible, 50mm DSLR lens, soft morning sunlight, cool natural tones, fresh atmosphere, healthy foliage, morning atmosphere, ultra realistic, DSLR nature photography, botanical accuracy, realistic bark texture, sharp focus, natural colors, high dynamic range, 8k resolution, masterpiece, highly detailed, professional wildlife photography\n",
+    "negative_prompt": "blurry, low quality, low resolution, watermark, text, logo, duplicate, cropped, noisy, distorted, deformed, cartoon, anime, illustration, painting, sketch, CGI, plastic texture, floating branches, disconnected leaves, malformed canopy, extra trunk, extra branches, unrealistic bark, artificial colors",
+    "seed": null,
+    "guidance_scale": 6.5,
+    "num_inference_steps": 10,
+    "width": 512,
+    "height": 512,
+    "generation_time": 546.6435453000013
+}

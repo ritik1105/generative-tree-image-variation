@@ -1,0 +1,46 @@
+photorealistic:
+
+  prefix: >
+    Ultra realistic DSLR nature photograph of
+
+  suffix: >
+    masterpiece,
+    highly detailed,
+    professional wildlife photography
+
+cinematic:
+
+  prefix: >
+    Cinematic photograph of
+
+  suffix: >
+    dramatic composition,
+    movie quality,
+    award-winning photography
+
+scientific:
+
+  prefix: >
+    Botanical documentation photograph of
+
+  suffix: >
+    scientific reference,
+    accurate plant morphology
+
+drone:
+
+  prefix: >
+    High-altitude drone photograph of
+
+  suffix: >
+    aerial landscape,
+    ultra detailed
+
+smartphone:
+
+  prefix: >
+    Smartphone photograph of
+
+  suffix: >
+    realistic mobile photography,
+    authentic outdoor capture

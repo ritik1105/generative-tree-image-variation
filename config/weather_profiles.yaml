@@ -1,0 +1,42 @@
+clear:
+  descriptors:
+    - clear blue sky
+    - excellent visibility
+    - bright natural daylight
+    - crisp atmosphere
+
+cloudy:
+  descriptors:
+    - overcast sky
+    - soft diffused lighting
+    - muted shadows
+    - calm weather
+
+rainy:
+  descriptors:
+    - dark rain clouds
+    - water droplets on leaves
+    - wet bark
+    - reflective foliage
+    - humid atmosphere
+
+foggy:
+  descriptors:
+    - dense fog
+    - misty surroundings
+    - low visibility
+    - dew-covered leaves
+
+snowy:
+  descriptors:
+    - snow-covered branches
+    - frosted bark
+    - cold winter atmosphere
+    - white landscape
+
+storm:
+  descriptors:
+    - dramatic storm clouds
+    - strong winds
+    - lightning in the distance
+    - moving branches

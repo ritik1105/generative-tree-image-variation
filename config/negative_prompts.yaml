@@ -1,0 +1,33 @@
+default:
+  descriptors:
+    - blurry
+    - low quality
+    - low resolution
+    - watermark
+    - text
+    - logo
+    - duplicate
+    - cropped
+    - noisy
+    - distorted
+    - deformed
+
+photorealistic:
+  descriptors:
+    - cartoon
+    - anime
+    - illustration
+    - painting
+    - sketch
+    - CGI
+    - plastic texture
+
+trees:
+  descriptors:
+    - floating branches
+    - disconnected leaves
+    - malformed canopy
+    - extra trunk
+    - extra branches
+    - unrealistic bark
+    - artificial colors

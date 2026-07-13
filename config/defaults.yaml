@@ -7,15 +7,17 @@ defaults:
  leaf_density: mild_dense
  realism_level: photorealistic
  time_of_day: morning
- output_size: 1024x1024
+ output_width: 768
+ output_height: 768
+
+ num_inference_steps: 20
+
+ guidance_scale: 7.5
+
+ strength: 0.65
+ output_size: 768x768
  random_seed: null
- output_width: 512
- output_height: 512
- guidance_scale: 6.5
- num_inference_steps: 10
- strength: 0.6
- output_size: 1024x1024
- random_seed: null
+ season: summer
 
 variations:
  season:

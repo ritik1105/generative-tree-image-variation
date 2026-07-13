@@ -1,0 +1,18 @@
+{
+    "species": "Neem",
+    "season": "winter",
+    "weather": "clear",
+    "health": "dry",
+    "camera_angle": "front",
+    "lighting": "evening",
+    "time_of_day": "afternoon",
+    "model": "stabilityai/stable-diffusion-xl-base-1.0",
+    "prompt": "dry foliage. afternoon atmosphere. Ultra realistic DSLR nature photograph of\n Neem tree. (Azadirachta indica). broad umbrella-shaped canopy. moderately dense crown. irregular branching pattern. thick rough brown trunk. deeply fissured bark. sturdy mature appearance. pinnate compound leaves. vibrant green foliage. medium-sized leaflets. dense leaf clusters. spreading branches. slightly drooping secondary branches. not visible. single isolated tree. only one tree. tree centered. no surrounding trees. occupies most of the frame. full tree visible. botanical documentation style. cool atmosphere. sparse vegetation. light morning fog. calm winter environment. clear blue sky. excellent visibility. bright natural daylight. crisp atmosphere. dim ambient lighting. calm evening atmosphere. soft shadows. eye-level perspective. centered composition. full tree visible. 50mm DSLR lens. ultra realistic. DSLR nature photography. botanical accuracy. realistic bark texture. sharp focus. natural colors. high dynamic range. 8k resolution. The image contains exactly one mature tree.\n        Only one tree is present.\n        The entire tree is visible from trunk base to canopy.\n        The tree is centered in the frame.\n        No duplicate trees.\n        No surrounding trees.\n        No forest.\n        No park.\n        No cropped tree.\n        Natural proportions.\n        Real botanical photography.. masterpiece, highly detailed, professional wildlife photography",
+    "negative_prompt": "blurry, low quality, low resolution, watermark, text, logo, duplicate, cropped, noisy, distorted, deformed, cartoon, anime, illustration, painting, sketch, CGI, plastic texture, floating branches, disconnected leaves, malformed canopy, extra trunk, extra branches, unrealistic bark, artificial colors",
+    "seed": null,
+    "guidance_scale": 6.5,
+    "num_inference_steps": 10,
+    "width": 512,
+    "height": 512,
+    "generation_time": 496.4359248999972
+}
