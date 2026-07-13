@@ -1,99 +1,182 @@
-# Synthetic Tree Image Generation Pipeline
+# 🌳 Synthetic Tree Image Generator
 
-## Overview
+A modular AI-powered application for generating realistic synthetic tree images using Stable Diffusion XL (SDXL). The project supports both **Text-to-Image** and **Image-to-Image** generation through a React-based frontend and a FastAPI backend.
 
-This feature branch implements a modular synthetic tree image generation pipeline using Stable Diffusion XL (SDXL).
+## Features
 
-The goal is to generate realistic tree images from structured generation requests while supporting both Text-to-Image and Image-to-Image workflows. The architecture is designed to be model-agnostic so that additional image generation backends (FLUX, ComfyUI, hosted APIs, etc.) can be integrated in the future with minimal changes.
+- Text-to-Image generation
+- Image-to-Image generation using a reference image
+- Modular image generation pipeline
+- YAML-driven prompt engineering
+- Configurable variation generation
+- React frontend for user interaction
+- FastAPI backend API
+- Automatic metadata and prompt tracking
+- Extensible architecture for future model integrations
 
----
+## Tech Stack
 
-# Features
+### Frontend
+- React (Vite)
+- Axios
+
+### Backend
+- Python
+- FastAPI
+- Stable Diffusion XL (Diffusers)
+- Hugging Face Transformers
+- Pillow
+
+## Project Structure
+
+```text
+generative-tree-image-variation/
+│
+├── frontend/                 # React frontend
+├── adapters/                 # Model adapters
+├── config/                   # YAML configuration files
+├── generators/               # Prompt & variation generation
+├── metadata/                 # Run tracking
+├── models/                   # Request models
+├── pipeline/                 # Image generation pipeline
+├── validators/               # Request validation
+├── outputs/                  # Generated images and metadata
+├── uploads/                  # Uploaded reference images
+├── api.py                    # FastAPI server
+└── main.py                   # Standalone pipeline entry point
+```
+
+## Current Workflow
+
+```text
+React UI
+      │
+      ▼
+ FastAPI Backend
+      │
+      ▼
+Generation Request
+      │
+      ▼
+Image Generation Pipeline
+      │
+ ┌────┼──────────────┐
+ ▼    ▼              ▼
+Variation Engine
+Prompt Builder
+Negative Prompt Builder
+      │
+      ▼
+SDXL Adapter
+      │
+      ▼
+Run Tracker
+      │
+      ▼
+Generated Images
+```
+
+## Current UI Features
+
+- Prompt input
+- Reference image upload
+- Species selection
+- Weather selection
+- Lighting selection
+- Camera angle selection
+- Health condition selection
+- Time of day selection
+- Generated image preview
+
+## Running the Backend
+
+```bash
+python -m uvicorn api:app --reload
+```
+
+Backend runs at:
+
+```
+http://127.0.0.1:8000
+```
+
+## Running the Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Frontend runs at:
+
+```
+http://localhost:5173
+```
 
 ## Supported Generation Modes
 
 ### Text-to-Image
 
-Generate tree images from structured prompts.
-
-Example:
-
-- Species
-- Season
-- Weather
-- Lighting
-- Health
-- Camera Angle
-- Time of Day
-
-↓
-
-Photorealistic generated tree image.
-
----
+Generate tree images from textual descriptions.
 
 ### Image-to-Image
 
-Generate variations from an existing tree image.
+Generate variations using an uploaded reference image.
 
-Example transformations:
+## Output
 
-- Summer → Winter
-- Clear → Rainy
-- Healthy → Stressed
-- Morning → Evening
+Each generation creates a new run inside:
 
-while preserving the overall tree structure.
+```text
+outputs/
+└── run_xxx/
+    ├── images/
+    ├── prompts/
+    ├── metadata/
+    ├── input/
+    └── summary.json
+```
 
----
+## Configuration
 
-# Generation Workflow
+The generation pipeline is driven by YAML configuration files located in the `config/` directory, including:
 
-1. Load generation request.
-2. Validate request.
-3. Normalize missing values.
-4. Generate variation combinations.
-5. Sample requested combinations.
-6. Build SDXL prompts.
-7. Generate images.
-8. Save images, prompts, metadata, and summary.
+- Prompt templates
+- Species profiles
+- Weather profiles
+- Season profiles
+- Camera profiles
+- Lighting profiles
+- Realism profiles
+- Negative prompts
+- Default generation settings
 
----
+## Current Status
 
-# Current Capabilities
+Implemented:
 
-- Text-to-Image generation
-- Image-to-Image generation
-- Config-driven defaults
-- Modular SDXL adapter
-- Generation metadata logging
-- Prompt generation
-- Request validation
-- Run tracking
-- JSON-based request loading
+- ✅ React frontend
+- ✅ FastAPI backend
+- ✅ Text-to-Image generation
+- ✅ Image-to-Image generation
+- ✅ Prompt Builder
+- ✅ Negative Prompt Builder
+- ✅ Variation Engine
+- ✅ Run Tracker
+- ✅ Metadata generation
+- ✅ Image upload
+- ✅ Generated image preview
 
----
+Planned:
 
-# Technologies
-
-- Python
-- Stable Diffusion XL
-- Hugging Face Diffusers
-- PyTorch
-- Pillow
-- YAML
-- Dataclasses
-
----
-
-# Future Improvements
-
-- Negative prompt generation
-- Prompt template engine
-- Species-specific prompt tuning
+- Dynamic UI options from backend
+- Prompt preview
+- Improved image quality
 - ControlNet integration
-- Inpainting
-- FLUX adapter
-- ComfyUI adapter
-- REST API
-- Batch generation UI
+- LoRA support
+- Additional model adapters (FLUX, ComfyUI)
+
+## License
+
+This project was developed as part of a synthetic tree image generation challenge and is intended for research and development purposes.
